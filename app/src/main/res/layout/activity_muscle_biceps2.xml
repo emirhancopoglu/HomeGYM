@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MuscleBiceps2">
+
+    <VideoView
+        android:id="@+id/videoView9"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonBiceps2"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/carpibuton"
+        android:text="3"
+
+        android:textColor="#222222"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/leftbiceps2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="113dp"
+        android:text="1) Halterleri nötr bir kavrama ile tutun (başparmaklar tavana bakar).\n 2) Dambılı yavaşça göğüs hizasına kaldırın \n 3) Başlangıç ​​pozisyonuna dönün ve tekrarlayın. "
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:visibility="gone"
+        android:background="@drawable/rounded_textview"
+        android:fontFamily="monospace"
+        android:padding="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/videoView9" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="136dp"
+        android:layout_height="46dp"
+        android:background="@drawable/carpibuton"
+        android:text="detay"
+        android:textColor="#222222"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.675" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="56dp"
+        android:layout_height="30dp"
+
+
+        android:background="@android:color/transparent"
+        android:text="X"
+        android:textColor="#CF0A0A"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.699" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
